@@ -1,3 +1,9 @@
+:root {
+  --textColor: #536b78;
+  --backgroundColor: #cee5f2;
+  --hoverColor: #accbe1
+}
+
 * {
   font-family: "Rubik", sans-serif;
   margin: 0;
@@ -7,8 +13,8 @@
 }
 
 body {
-  background-color: #121212 !important;
-  color: #fff !important;
+  background-color: var(--backgroundColor) !important;
+  color: var(--textColor) !important;
   overflow: hidden;
   overflow-y: scroll;
 }
